@@ -94,7 +94,7 @@ const fetchPokemon = () => {
           card.style.border = "10px ridge rgb(255,197,78)";
           break;
         case "GHOST":
-          card.style.backgroundImage = "linear-gradient(#37267ac6,#121d72,#574f8e)";
+          card.style.backgroundImage = "linear-gradient(#37267a,#121d72,#574f8e)";
           card.style.border = "10px ridge #231294";
           break;
         case "POISON":
@@ -120,10 +120,6 @@ const fetchPokemon = () => {
         case "GROUND":
           card.style.backgroundImage = "linear-gradient(rgb(191,121,15),rgb(194,153,28),rgb(169,115,11))";
           card.style.border = "10px ridge rgb(191,122,0)";
-          break;
-        case "":
-          card.style.backgroundImage = "linear-gradient()";
-          card.style.border = "10px ridge ";
           break;
       }
     });
