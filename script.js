@@ -26,8 +26,6 @@ const fetchPokemon = () => {
       img.setAttribute("alt", "Resource unavailable");
       img.setAttribute("src", pokeImageSrc);
       img.setAttribute("style", "position:absolute;height:40%;width:60%;left:20%;");
-      console.log(pokeDef);
-      console.log(pokemon_container.childNodes);
       pokemon_container.removeChild(pokemon_container.childNodes[0]);
       pokemon_container.append(img);
       //name
